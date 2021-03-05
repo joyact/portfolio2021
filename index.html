@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css" />
+  <link rel="stylesheet" href="./src/style.css">
+  <script src="./src/script.js" defer></script>
+  <title>2021 Portfolio</title>
+</head>
+<body class="light-mode">
+
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <h3 class="logo"><a href="#home" >why joyㅡ?</a></h3>
+    <div class="navbar__toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="navbar__links">
+      <li id="project-link">
+        <a href="#project" class="navbar__link">Projects</a>
+      </li>
+      <li id="client-link">
+        <a href="#client" class="navbar__link">Clients</a>
+      </li>
+      <li id="blog-link">
+        <a href="#blog" class="navbar__link">Blog</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- // Navbar Section -->
+
+  <!-- Main Section -->
+  <main>
+    
+    <!-- Intro Section -->
+    <div class="slider"></div>
+    <section id="home">
+      <div class="intro-box">
+        <img src="./src/images/main.jpg" alt="">
+        <h1 class="intro-text">
+          Dev JOY<br />
+          <span>I am a FrontEnd Developer.</span>
+        </h1>
+      </div>
+    </section>
+    <!-- // Intro Section -->
+
+    <!-- Project Section -->
+    <section id="project">
+      <div class="container">
+        <div class="content-header">
+          <h1 class="title">her <span>P</span>rojects</h1>
+          <p>Javascipt, React, Typescript 등 다양한 Front-End 언어를 바탕으로 개인적으로 진행한 개발 프로젝트입니다.</p>
+        </div>
+        <div class="content-wrap">
+          <div class="col">
+            <div class="project-box">
+              <h2 class="project__title">
+                <span class="num">01</span>
+                Naver Clone
+              </h2>
+              <span class="img img1"></span>
+              <div class="project__info">
+                <div class="skills">
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3-alt"></i>
+                  <i class="fab fa-js-square"></i>
+                  <i class="fab fa-react"></i>
+                </div>
+                <p>가상의 Database를 생성하여 로그인, 회원가입, 검색 등의 기능을 구현한 네이버 모바일 페이지입니다.</p>
+              </div>
+              <div class="project__link">
+                <button class='btn'><a href="https://naver-joy.netlify.app/" target="_blank">Run Code</a></button>
+                <button class='btn'><a href="https://github.com/joyact/naver-mobile-app" target="_blank">View Code</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="project-box">
+              <h2 class="project__title">
+                <span class="num">02</span>
+                Wediz
+              </h2>
+              <span class="img img2"></span>
+              <div class="project__info">
+                <div class="skills">
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3-alt"></i>
+                  <i class="fab fa-js-square"></i>
+                  <i class="fab fa-react"></i>
+                </div>
+                <p>React 기반의 Single Page Application에 Javascript로 만든 Todolist, 계산기, 시계 등을 모아둔 유틸리티 앱입니다.</p>
+              </div>
+              <div class="project__link">
+                <button class='btn'><a href="https://wediz.netlify.app/" target="_blank">Run Code</a></button>
+                <button class='btn'><a href="https://github.com/joyact/wediz" target="_blank">View Code</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="project-box">
+              <h2 class="project__title">
+                <span class="num">03</span>
+                Motion
+              </h2>
+              <span class="img img3"></span>
+              <div class="project__info">
+                <div class="skills">
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3-alt"></i>
+                  <i class="fab fa-ts"></i>
+                </div>
+                <p>Typescript를 사용하여 일정 등록 및 사진, 동영상 저장을 할 수 있는 미디어 관리 앱입니다.</p>
+              </div>
+              <div class="project__link">
+                <button class='btn'><a href="https://motion-joy.netlify.app" target="_blank">Run Code</a></button>
+                <button class='btn'><a href="https://github.com/joyact/motion" target="_blank">View Code</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- // Project Section -->
+    
+    <!-- Client Section -->
+    <section id="client">
+      <div class="container">
+        <div class="content-header">
+          <h1 class="title">her <span>C</span>lients</h1>
+          <p>사전 제작된 디자인 시안과 고객의 요청사항을 참고해 Bootstrap 라이브러리를 기반으로 Publishing한 웹페이지입니다.</p>
+        </div>
+        <div class="content-wrap">
+          <div class="col">
+            <figure class="client-box">
+              <img src="src/images/client/client01.jpg" alt="포트폴리오-케이원" />
+              <figcaption>
+                <ul class="tags">
+                  <li>반응형</li>
+                  <li>다국어</li>
+                  <li>광고/홍보</li>
+                  <li>10 Pages</li>
+                </ul>
+                <h3 class="client-name">케이원커뮤니케이션</h3>
+                <div class="btn-wrap">
+                  <a href="http://konemkt.com/" target="_blank" class="border-btn">Visit Website</a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="client-box">
+              <img src="src/images/client/client02.jpg" alt="포트폴리오-티밥" />
+              <figcaption>
+                <ul class="tags">
+                  <li>반응형</li>
+                  <li>다국어</li>
+                  <li>통신/판매</li>
+                  <li>4 Pages</li>
+                </ul>
+                <h3 class="client-name">TiBAB</h3>
+                <div class="btn-wrap">
+                  <a href="http://tibabio.10pages.co.kr/" target="_blank" class="border-btn">Visit Website</a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="client-box">
+              <img src="src/images/client/client03.jpg" alt="포트폴리오-FEAKOREA" />
+              <figcaption>
+                <ul class="tags">
+                  <li>반응형</li>
+                  <li>서비스/컨설팅</li>
+                  <li>9 Pages</li>
+                </ul>
+                <h3 class="client-name">Nemasis</h3>
+                <div class="btn-wrap">
+                  <a href="http://yoon.10pages.co.kr/" target="_blank" class="border-btn">Visit Website</a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="client-box">
+              <img src="src/images/client/client04.jpg" alt="포트폴리오-광희생활건강" />
+              <figcaption>
+                <ul class="tags">
+                  <li>반응형</li>
+                  <li>서비스/홍보</li>
+                  <li>9 Pages</li>
+                </ul>
+                <h3 class="client-name">광희생활건강</h3>
+                <div class="btn-wrap">
+                  <a href="https://www.ghhnb.com/" target="_blank" class="border-btn">Visit Website</a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="client-box">
+              <img src="src/images/client/client05.jpg" alt="포트폴리오-칵테일미디어" />
+              <figcaption>
+                <ul class="tags">
+                  <li>반응형</li>
+                  <li>서비스/컨설팅</li>
+                  <li>8 Pages</li>
+                </ul>
+                <h3 class="client-name">칵테일미디어</h3>
+                <div class="btn-wrap">
+                  <a href="http://cocktailmedia.co.kr/" target="_blank" class="border-btn">Visit Website</a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="client-box">
+              <img src="src/images/client/client06.jpg" alt="포트폴리오-트래스코" />
+              <figcaption>
+                <ul class="tags">
+                  <li>반응형</li>
+                  <li>다국어</li>
+                  <li>관광/통신</li>
+                  <li>6 Pages</li>
+                </ul>
+                <h3 class="client-name">트래스코</h3>
+                <div class="btn-wrap">
+                  <a href="http://www.traesco.co.kr/" target="_blank" class="border-btn">Visit Website</a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- // Client Section -->
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <div class="container">
+        <div class="content-header">
+          <h1 class="title">her <span>B</span>log</h1>
+          <p>My weekly habit to deeply understand about the Front-End and to keep up with the latest in Web Development.</p>
+        </div>
+        <div class="content-wrap columns">
+          <div class="col">
+            <div class="blog-post">
+              <img src="src/images/blog/blog1.jpg" alt="블로그" />
+              <div class="txt-wrap">
+                <h3>The easiest concept between a ‘Library’ and a ‘Framework’</h3>
+                <span>Aug. 18, 2020</span>
+                <p>If you have experienced in Software Development Industry, you may have wondered or heard this question at least once. It’s also ...</p>
+              </div>
+              <a href="https://medium.com/swlh/the-easiest-concept-between-library-and-framework-f7c6134dcc6c" target="_blank" class="more-btn">Read More</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="blog-post">
+              <img src="src/images/blog/blog2.jpg" alt="블로그" />
+              <div class="txt-wrap">
+                <h3>Javascript Trends in 2020</h3>
+                <span>Aug. 12, 2020</span>
+                <p>Javascript has been the most popular program ming language in the world over the past few years. If you are a developer, you may wonder about what the future of the programming ...</p>
+              </div>
+              <a href="https://joyact.medium.com/javascript-trends-in-2020-c779ab137f22" target="_blank" class="more-btn">Read More</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="blog-post">
+              <img src="src/images/blog/blog3.jpg" alt="블로그" />
+              <div class="txt-wrap">
+                <h3>Front-end Roadmap in 2020</h3>
+                <span>Aug. 06, 2020</span>
+                <p>Step by step guide to becoming a modern frontend developer. If you want to become a front-end developer, you should check out this Front-end Roadmap! It will help you to keep ...</p>
+              </div>
+              <a href="https://joyact.medium.com/front-end-roadmap-in-2020-aa7f5badd721" target="_blank" class="more-btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // Blog Section -->
+  </main>
+  <!-- // Main Section -->
+  
+  <!-- Footer Section -->
+  <footer>
+    <a href="https://twitter.com/joylee_dev" target="_blank"><i class="social-media fab fa-twitter"></i></a>
+    <a href="https://www.notion.so/joyAct-HOME-7742b1214c254b599d57ab1f55a6518b" target="_blank"><i class="social-media notion"></i></a>
+    <a href="https://github.com/joyact" target="_blank"><i class="social-media fab fa-github"></i></a>
+    <a href="https://codepen.io/joyact" target="_blank"><i class="social-media fab fa-codepen"></i></a>
+  </footer>
+  <!-- // Footer Section -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw==" crossorigin="anonymous"></script>
+</body>
+</html>
